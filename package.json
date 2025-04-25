@@ -2,12 +2,12 @@
   "name": "workspace",
   "version": "1.0.0",
   "main": "index.js",
-"scripts": {
-  "start": "vue-cli-service serve",
-  "serve": "vue-cli-service serve",
-  "build": "vue-cli-service build",
-  "test": "echo \"Error: no test specified\" && exit 1"
-},
+  "scripts": {
+    "start": "node api.js && vue-cli-service serve",
+    "serve": "vue-cli-service serve",
+    "build": "node api.js && vue-cli-service build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
